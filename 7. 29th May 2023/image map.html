@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="../../W3 School/HTML/images/workplace.jpg" usemap="#mapName"  >
+    <map name="mapName">
+        <area shape="rect" coords="30,40,270,350" onclick ="clickme('laptop')">
+        <!--<area shape="circle" coords="341,296,50" onclick="clickme('cup')">-->
+        <area shape="circle" coords="341,296,50" href="../../W3 School/HTML/images/coffeejpg.jpg" target="_blank">
+        <area shape="rect" coords ="290,178,329,244" onmouseover="clickme('mobile')" >
+    </map>
+    <script>
+        function clickme(obj)
+        {
+            if(obj == "laptop")
+                alert("You have clicked a laptop");
+            if(obj == "cup")
+                alert("You have clicked a cup");
+            if(obj == "mobile")
+                alert("You have hovered over a mobile");
+        }
+    </script>
+    
+</body>
+</html>
