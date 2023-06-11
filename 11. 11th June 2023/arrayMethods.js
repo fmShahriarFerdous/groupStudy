@@ -16,8 +16,8 @@ const res2 = [...arr1, y, ...arr2, x, ...arr3];
 // console.log(res2);
 // console.log([...arr1, ...arr2, ...arr3]);
 // console.log(arr2);
-// let res3 = [];
-// for(let i = 1; i < 10; i++) {
-//    res3 = [...arr2];
-// }
-// console.log(res3);
+let res3 = arr2;
+for(let i = 1; i < 10; i++) {
+   res3 = [...res3,i];
+}
+console.log(res3);
