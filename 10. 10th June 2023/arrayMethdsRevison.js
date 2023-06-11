@@ -23,7 +23,7 @@ console.log(toyota.slice(2,4).join("->"));
 console.log(toyota);
 console.log(toyota.toString());
 console.log(toyota);
-
+console.log(toyota.indexOf("Axio"));
 
 
 
