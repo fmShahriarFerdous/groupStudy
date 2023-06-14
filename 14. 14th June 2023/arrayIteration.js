@@ -15,21 +15,26 @@
 
 // num3(1,2);
 
-const array1 = [1, 30, 39, 29, 10, 13];
-const array2 = [1,1,1];
+// const array1 = [1, 30, 39, 29, 10, 13];
+// const array2 = [1,1,1];
 
-// array1.every((value, index, arr) => console.log(value, index, arr));
-// console.log(array2.every((value) => value === 1));
+// // array1.every((value, index, arr) => console.log(value, index, arr));
+// // console.log(array2.every((value) => value === 1));
 
-console.log(array1.fill(4, 3, 5));
-// console.log(array2.fill(6));
-console.log(array2.fill(7,1));
+// console.log(array1.fill(4, 3, 5));
+// // console.log(array2.fill(6));
+// console.log(array2.fill(7,1));
 
-// filter 
-const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
-console.log(words.filter((value) => value.length > 5));
-console.log(words);
+// // filter 
+// const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+// console.log(words.filter((value) => value.length > 5));
+// console.log(words);
+
+let rectangleArea =  (a,b) => a*b;
 
 
+let a = 5, b=4;
+let area = rectangleArea(a,b);
+console.log("Area is ",area);
 
 
