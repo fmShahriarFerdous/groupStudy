@@ -15,26 +15,41 @@
 
 // num3(1,2);
 
-// const array1 = [1, 30, 39, 29, 10, 13];
-// const array2 = [1,1,1];
+const array1 = [1, 30, 39, 29, 10, 13, 49];
+const array2 = [1,1,2];
 
-// // array1.every((value, index, arr) => console.log(value, index, arr));
-// // console.log(array2.every((value) => value === 1));
+// find method 
+console.log(array1.find((value) => value === 13));
+console.log(array1.findIndex((value) => value === 13));
 
+// every method
+// array1.every((value, index, arr) => console.log(value, index, arr));
+// console.log(array2.every((value) => value === 1));
+
+// fill method 
 // console.log(array1.fill(4, 3, 5));
-// // console.log(array2.fill(6));
+// console.log(array2.fill(6));
 // console.log(array2.fill(7,1));
 
-// // filter 
+
+
+// filter 
+// const findValue = (value, index) => {
+//     console.log(index , value);
+//     return value.length > 5;
+// } 
 // const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
-// console.log(words.filter((value) => value.length > 5));
+// console.log(words.filter(findValue));
+// console.log(words.filter((value, index, arr) => {
+//     value.length > 5;
+// }))
 // console.log(words);
 
-let rectangleArea =  (a,b) => a*b;
+// let rectangleArea = (a,b) => a*b;
+// let a = 5, b=4;
+// let area = rectangleArea(a,b);
+// console.log("Area is ",area);
 
 
-let a = 5, b=4;
-let area = rectangleArea(a,b);
-console.log("Area is ",area);
 
 
