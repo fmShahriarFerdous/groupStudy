@@ -11,7 +11,7 @@ const arr1 = [1, 30, 39, 29, 10, 13];
 // }
 // addFunc(arr1);
 
-arr1.every((value, index, arr, thisarg) => console.log(value, index, arr, thisarg.value));
+arr1.every((value, index, arr) => console.log(value, index, arr));
 
 // arrow function vs normal function 
 // function everyfunc (arr1) {
