@@ -21,11 +21,27 @@
 //  console.log("Sorted Array",arr);
 
 // insertion sort 
-let arr = [4,2,1,3,9];
+// let arr = [4,2,1,3,9];
 
-for( let i = 1; i < arr.length; i++) {
-    for(j = i; j >= 1; j--) {
-        if(arr[j] < arr[j-1]){
+// for( let i = 1; i < arr.length; i++) {
+//     for(j = i; j >= 1; j--) {
+//         if(arr[j] < arr[j-1]){
+//             let temp = arr[j];
+//             arr[j] = arr[j-1];
+//             arr[j-1] = temp;
+//         } else {
+//             break;
+//         }
+//     }
+// }
+// console.log("sorted arr", arr);
+
+
+let arr = [4,6,2,1,3,5];
+
+for (let i = 1; i < arr.length; i++) {
+    for ( let j = i; j > 0; j--) {
+        if(arr[j] < arr[j-1]) {
             let temp = arr[j];
             arr[j] = arr[j-1];
             arr[j-1] = temp;
@@ -34,5 +50,4 @@ for( let i = 1; i < arr.length; i++) {
         }
     }
 }
-console.log("sorted arr", arr);
-
+console.log(arr);
