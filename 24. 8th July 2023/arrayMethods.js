@@ -13,3 +13,4 @@ let arr = [1,2,3,4,5,3];
 
 let arr2 = arr.fill(0,3);
 console.log("arr:",arr,"\narr2:",arr2);
+
