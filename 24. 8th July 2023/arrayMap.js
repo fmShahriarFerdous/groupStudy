@@ -11,4 +11,4 @@ const kvArray = [
     { key: 3, value: 30 },
 ];
   
-kvArray.map((e) => e.key);
+console.log(kvArray.map((e) => e.key));
