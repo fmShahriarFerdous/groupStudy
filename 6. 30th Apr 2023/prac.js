@@ -26,8 +26,8 @@
 
 let st1 = "Jithan";
 let st2 = "Jony";
-// st1 += st2;
-//st1 = st1.concat(st2);
+st1 += st2;
+st1 = st1.concat(st2);
 // console.log(st1);
 // console.log(st2);
 console.log(st1,st2);
