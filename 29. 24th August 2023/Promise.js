@@ -3,16 +3,17 @@ const promiseFunc = control => {
         if(control) {
             Resolve(6);
         } else {
-            Reject("reject 404 server error");
+            Reject(new Error("reject 404 server error"));
         }
     })
 }
 
-promiseFunc(true)
+promiseFunc(false)
+
 .then((data) => {
     let a = 5;
     let b = 5;
     let res = a + data;
     console.log(res);
-})
-.catch((err) => console.log(err))
+}, (err) => console.log(err.message))
+// .catch((err) => console.log(err.message))
