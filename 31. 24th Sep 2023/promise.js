@@ -15,6 +15,6 @@ const newPromise = new Promise( (myresolve,myreject) => {
 // newPromise.then((data) => {console.log("Resolve:",data)} , (data) => {console.log("Reject:",data)});
 newPromise.then((data) => {console.log("Resolve:",data)}).catch((data) => {console.log("Reject:",data)});
 
-console.log("Promise is a Asynchronus function");
+console.log("Promise is an Asynchronus function");
 
 
