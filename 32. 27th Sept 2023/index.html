@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <p id="paragraph">Test</p>
+        <p class="paragraph">Test</p>
+        <p class="paragraph">Test</p>
+        <p class="paragraph">Test</p>
+    </body>
+
+    <script>
+        document.getElementById('paragraph').innerHTML = "testing from document";
+        document.getElementsByClassName('paragraph')[1].innerText = 'text changed';
+        document.getElementsByClassName('paragraph')[2].innerText = "Test has been changes";
+    </script>
+</html>

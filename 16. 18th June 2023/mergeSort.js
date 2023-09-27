@@ -14,7 +14,7 @@ function mergeSort(arr,temp,low,high)
     console.log("before going to assign loop", low, mid, high);
     for (i=low,j=mid+1,k=low;k<=high;k++)
     {
-        console.log("inside loop", i, j,k);
+        console.log("inside loop", i, j, k);
         if (i==mid+1)
         {
             temp[k]=arr[j];
@@ -35,7 +35,6 @@ function mergeSort(arr,temp,low,high)
              temp[k] = arr[j];
              j += 1;
         }
-
     }
     for (let k =low;k<=high;k++)
     {
