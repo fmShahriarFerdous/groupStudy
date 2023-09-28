@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <p id="paragraph">Test0</p>
+        <p class="paragraph1"> 
+            <span>      Test1</span> 
+        </p>
+        <p class="paragraph">Test2</p>
+        <p class="paragraph">Test3</p>
+        <h1 class="DOM">Learning DOM</h1>
+    </body>
+
+    <script>
+        // document.getElementById('paragraph').innerHTML = "testing from document";
+        // document.getElementsByTagName('p')[2].innerHTML = document.getElementsByTagName('p')[1].innerHTML
+        // document.getElementsByClassName('paragraph')[2].innerHTML = "Test has been changes";
+
+        const para1 = document.querySelector(".paragraph1")
+        para1.innerHTML = "text changed using queryselector"
+        // para1.attributes = 'type';
+        console.log(para1);
+        
+        const allPara = document.querySelectorAll(".paragraph")[1].innerHTML = "querySeletor ALL";
+        console.log(allPara);
+    </script>
+</html>
