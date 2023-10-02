@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <p class="intro">Hello World</p>
+        <p class="intro">This is a sample text</p>
+        <p class="intro">This is a sample text 2</p>
+
+        <p style="background-color: goldenrod; border: 5px solid red; border-radius: 5px; padding: 10px; border-color: black yellowgreen green" id="demo"></p>
+
+        <form type="submit" class="details" id="formValue">
+           FirstName:  <input type="text" name="fname" id="FirstName">
+           LastName:  <input type="text" name="lname" id="LastName">
+           <input type="submit" value="submit"></input>
+        </form>
+
+    </body>
+
+    <script>
+        const x = document.querySelectorAll("p.intro")[1].innerText;
+        document.querySelector("#demo").innerHTML = x;
+        // console.log(x);
+
+        //input field
+        setInterval(() => {
+            const getFirstName = document.querySelector("#formValue")[0].value;
+            const getLastName = document.querySelector("#formValue")[1].value;
+            let text = "";
+            text += getFirstName +" "+ getLastName;
+
+            console.log(text);
+        }, 3000)
+
+
+    </script>
+</html>
