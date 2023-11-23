@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: lightslategray;">
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 5px; margin-top: 10%;">
+        <textarea name="input-text" id="input-text" cols="30" rows="4"></textarea>
+
+        <button onclick="increaseText()">Increase Text</button>
+        <button onclick="decreaseText()">Decrease Text</button>
+    </div>
+
+
+    <script>
+        const currentFontSize = window.getComputedStyle(document.getElementById('input-text')).fontSize;
+        console.log(currentFontSize); 
+        let current = parseInt(currentFontSize);
+        console.log(current);
+        const getElement = document.getElementById('input-text')
+        const increaseText = () => {
+            current += 2;
+            getElement.style.fontSize = current + 'px';
+        }
+        const decreaseText = () => {
+            current -= 2;
+            getElement.style.fontSize = current + 'px';
+        }
+    </script>
+</body>
+</html>
