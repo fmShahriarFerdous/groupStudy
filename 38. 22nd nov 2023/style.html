@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="id1">My Heading</p>
+
+<button type="button" 
+onclick="colorChange()">
+Click Me!</button>
+
+<button type="button" onclick="increaseFontSize()">
+  Increase font Size
+</button>
+
+<button type="button" onclick="decreaseFontSize()">
+  Decrease font Size
+</button>
+
+<script>
+ 
+    const colorChange = () => {
+      const demo = document.getElementById("id1").style
+      demo.color = '#FFF';
+      demo.border = '1px solid red'
+      demo.padding = '5px 10px';
+      demo.backgroundColor = 'red';
+      demo.maxWidth = '100px';
+      demo.borderRadius = "5px";
+      demo.textAlign = "center";
+    }
+    const currentSize = document.getElementById("id1").style.fontSize = 'xx-small';
+    const increaseFontSize = () => {
+      document.getElementById("id1").style.fontSize = "medium";
+    }
+
+    const decreaseFontSize = () => {
+      document.getElementById("id1").style.fontSize = "xx-small";
+    }
+</script>
+</body>
+</html>
