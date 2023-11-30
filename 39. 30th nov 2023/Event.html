@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>JavaScript HTML Events</h1>
+    <h2>The onclick Attribute</h2>
+
+    <h2 onclick="changeText(this)">Click on this text!</h2>
+    <h1>JavaScript HTML Events</h1>
+    <h2>The onchange Attribute</h2>
+
+    Enter your name: <input type="text" id="fname" onchange="upperCase()">
+    <p>When you leave the input field, a function transforms the input to upper case.</p>
+
+<script>
+    function changeText(id) {
+        console.log(id);
+        id.innerHTML = "Ooops!";
+        }
+    function upperCase() {
+        const x = document.getElementById("fname");
+        console.log();
+        x.value = x.value.toUpperCase();
+    }
+</script>
+
+
+</body>
+</html>
