@@ -7,10 +7,6 @@ for( let i=0;i<5;i++)
     console.log("\n");
     console.log("\n");
     document.write(i);
-    document.write("<br>")
-    
-    
-
-   
+    document.write("<br>") 
 }
 }

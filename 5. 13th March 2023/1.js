@@ -9,5 +9,5 @@ if(true)
     console.log(a);
 }  
     
-    console.log("Hahahah" , "lol" );
-    fun();
+console.log("Hahahah" , "lol" );
+fun();
