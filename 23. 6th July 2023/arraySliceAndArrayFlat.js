@@ -1,6 +1,6 @@
-// let arr = [0,1,2,3];
+let arr = [0,1,2,3];
 
-// let arr2 = arr.slice(2,-1);
+// let arr = arr.slice(2,-1);
 
 // console.log(arr[-1]);    // ....-3 -2 -1 0 1 2 3 4.....
 
@@ -11,7 +11,7 @@
 
 // console.log(arr);
 
-let arr = [1,2,3,4,5];
+// let arr = [1,2,3,4,5];
 
 let arr2 = [6,7,8];
 let str1 = "Jihtan" 

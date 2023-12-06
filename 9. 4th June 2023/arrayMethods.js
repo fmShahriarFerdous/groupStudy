@@ -30,10 +30,10 @@ arr[arr.length] = 5;
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // delete fruits[2];
 
-// splice 
+splice 
 // spice takes two parameters. frist one is the index number of array position, second one is the total number of the delete Elements. frist one is the mendatory
-// fruits.splice(2, 1); 
-// console.log(fruits);
+fruits.splice(2, 1); 
+console.log(fruits);
 
 // join 
 // const joinMethod =  fruits.splice(1, 2).join(' ');

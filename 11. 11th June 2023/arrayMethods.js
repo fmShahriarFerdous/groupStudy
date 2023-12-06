@@ -7,7 +7,7 @@ let x = 100;
 let y = 200;
 const res = arr1.concat(arr3, y, arr2, x);
 // console.log(arr1.concat(arr2));
-// console.log(res);
+console.log(res);
 // console.log(arr1);
 // console.log(arr2);
 

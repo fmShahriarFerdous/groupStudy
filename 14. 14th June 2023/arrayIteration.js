@@ -19,17 +19,17 @@ const array1 = [1, 30, 39, 29, 10, 13, 49];
 const array2 = [1,1,2];
 
 // find method 
-console.log(array1.find((value) => value === 13));
-console.log(array1.findIndex((value) => value === 13));
+// console.log(array1.find((value) => value === 13));
+// console.log(array1.findIndex((value) => value === 13));
 
 // every method
 // array1.every((value, index, arr) => console.log(value, index, arr));
 // console.log(array2.every((value) => value === 1));
 
 // fill method 
-// console.log(array1.fill(4, 3, 5));
-// console.log(array2.fill(6));
-// console.log(array2.fill(7,1));
+console.log(array1.fill(4, 3, 5));
+console.log(array2.fill(6));
+console.log(array2.fill(7,1));
 
 
 

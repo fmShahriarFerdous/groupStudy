@@ -1,6 +1,6 @@
 const arr1 = [1, 30, 39, 29, 10, 13];
 
-// console.log(arr1.fill(0, 2, 4));
+console.log(arr1.fill(0, 2, 4));
 // console.log(arr1.fill(0, 2, 4));
 
 const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
