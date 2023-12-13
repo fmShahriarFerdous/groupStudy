@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM Tutorial</title>
+  </head>
+
+  <body id="nodeList">
+        <h1 id="firstchild">DOM Lesson one</h1>
+        <p>Hello world!</p>
+        <h1>DOM Lesson two</h1>
+  </body>
+
+</html>
+
+<script>
+        const sectionChild = document.querySelector("#nodeList").firstElementChild.innerHTML;
+        const sectionChild2 = document.querySelector("#firstchild").innerHTML;
+        console.log(sectionChild2);
+</script>
