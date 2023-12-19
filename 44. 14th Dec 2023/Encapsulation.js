@@ -11,7 +11,7 @@ class Player {
     }
 
     calculate_age() {
-        const diff_ms = Date.now() - new Date(this.birthday).getTime();
+        const diff_ms = Date.now() - new Date(this.#birthday).getTime();
         const age_dt = new Date(diff_ms);
         return Math.abs(age_dt.getUTCFullYear() - 1970);
     }
